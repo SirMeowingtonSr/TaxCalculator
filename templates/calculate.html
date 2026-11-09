@@ -1,6 +1,6 @@
 <!-- templates/home.html -->
 {% extends 'base.html' %}
 {% block content %}
-<h1>For your income of {{ "${:,.2f}".format(income)}}, your taxes total to: </h1>
+<h1>The taxes for a yearly income of {{ "${:,.2f}".format(income)}} are: </h1>
 <h2>{{ "${:,.2f}".format(tax)}}</h2>
 {% endblock %}
