@@ -1,0 +1,45 @@
+body {
+    background-color: #20262b;
+}
+h1 {
+    font-size: 56px;
+    color: #27cae7;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5%;
+}
+
+h2 {
+    font-size: 56px;
+    color: #27cae7;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0%;
+}
+
+ul {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #27cae7;
+    text-align: center;
+    padding: 0%;
+}
+
+p {
+    color: #27cae7;
+    text-align: center;
+    padding: 0%;
+}
+
+form {
+    color: #27cae7;
+    text-align: center;
+    padding: 0%;
+}
+
+nav a {
+    color: white
+}
+nav b {
+    color: white
+}

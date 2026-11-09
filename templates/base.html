@@ -1,0 +1,12 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Site</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<nav><a href="{{ url_for('home') }}">Tax Calculator Home</a></nav>
+{% block content %}{% endblock %}
+</body>
+</html>
