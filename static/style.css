@@ -43,3 +43,9 @@ nav a {
 nav b {
     color: white
 }
+
+button[name="submit"] {
+    border-radius: 4px;
+    font-size: 19px;
+    cursor: pointer;
+}
